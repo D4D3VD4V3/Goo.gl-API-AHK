@@ -1,4 +1,4 @@
-﻿SetBatchLines, -1
+SetBatchLines, -1
 api_key:=""				;Enter your key here		
 
 InputBox,long,Goo.gl,Enter the long URL you want to shorten:
@@ -32,8 +32,7 @@ if (!Errorlevel)
 }
 return
 
+GuiEscape:
 GuiClose:
 ExitApp
 
-Esc::
-ExitApp
